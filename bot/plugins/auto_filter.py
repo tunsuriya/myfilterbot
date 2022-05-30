@@ -153,7 +153,7 @@ async def auto_filter(bot, update):
         
         # Just A Decaration
         result[0].append([
-            InlineKeyboardButton(f"🔰 Page 1/{len_result if len_result < max_pages else max_pages} 🔰", callback_data="ignore")
+            InlineKeyboardButton(f"📖 Page 1/{len_result if len_result < max_pages else max_pages} 📖", callback_data="ignore")
         ])
         
         
@@ -203,8 +203,7 @@ async def auto_filter(bot, update):
         try:
             await bot.send_message(
                 chat_id = update.chat.id,
-                text=f"Found {(len_results)} Results For Your Query: <code>{query}</code>",
-                reply_markup=reply_markup,
+                text=f"▶️{(len_results)}ခု ရှာတွေ့ပါတယ်ဗျ။🔍 **\n\n ရှာထားတာက 👉 {query}**",                reply_markup=reply_markup,
                 parse_mode=enums.ParseMode.HTML,
                 reply_to_message_id=update.id
             )

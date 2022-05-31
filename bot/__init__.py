@@ -11,13 +11,13 @@ from logging.handlers import RotatingFileHandler
 from .translation import Translation
 
 # Change Accordingly While Deploying To A VPS
-APP_ID = "6935152"
+APP_ID = int(os.environ.get("APP_ID"))
 
-API_HASH = os.environ.get("56388e5ff61096e112a54dbe7c7d56e5")
+API_HASH = os.environ.get("API_HASH")
 
-BOT_TOKEN = os.environ.get("2140123902:AAEGnA4vkWJAUlZXKWAdFNHXQ2J_jUR25nk")
+BOT_TOKEN = os.environ.get("BOT_TOKEN")
 
-DB_URI = os.environ.get("mongodb+srv://adminmty:mtyadmin@cluster0.khuro.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+DB_URI = os.environ.get("DB_URI")
 
 USER_SESSION = os.environ.get("USER_SESSION")
 

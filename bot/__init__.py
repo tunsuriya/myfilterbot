@@ -13,13 +13,13 @@ from .translation import Translation
 # Change Accordingly While Deploying To A VPS
 APP_ID = int(2367149)
 
-API_HASH = "cea7e5b5bbc1c6fca2732288e4a4c49c"
+API_HASH = ""
 
-BOT_TOKEN = "1753304211:AAEQ4yfKV4fnp2Jv97S148S6NrNeg4pv_Dw"
+BOT_TOKEN = ""
 
 DB_URI = ""
 
-USER_SESSION = "BQC7wAluc5TQdiy6hsclF6xqFvdK4P7wkdpCMTGagjLKEbMgdDkMKnSp6MZqDtxY7joBme33t3Yt7IKpyPlbYiMatz0i2ViQTNa2hoRvFPkI2EBIYQVgHqMAsIyV1w5KnTnNlLggamlzZXux7lf2k9d0fymVL4XO25LnxYpvABS0A8MiCncQSuVkbiMZX3xjKRkxPCgQY3uhWC6pjV0iKpMWmn8wi-RHS-duRoGZyOxgW9cRI0tyOi0Kjvpb7KNwOeOBMo6vMDQvRLzoVIs7D_Fmo8dobttdXr1guv5WcqTTO5bq3nqWCgs141mbpNrt-c2ane1_EYEDVk13TkAGl833V8VHPgA"
+USER_SESSION = ""
 
 VERIFY = {}
 

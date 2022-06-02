@@ -11,15 +11,15 @@ from logging.handlers import RotatingFileHandler
 from .translation import Translation
 
 # Change Accordingly While Deploying To A VPS
-APP_ID = int(2367149)
+APP_ID = int(1234)
 
-API_HASH = ""
+API_HASH = "1234"
 
-BOT_TOKEN = ""
+BOT_TOKEN = "1234"
 
-DB_URI = ""
+DB_URI = "1234"
 
-USER_SESSION = ""
+USER_SESSION = "1234"
 
 VERIFY = {}
 
